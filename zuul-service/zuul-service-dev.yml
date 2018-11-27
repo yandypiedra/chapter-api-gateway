@@ -1,2 +1,9 @@
 management.endpoints.web.exposure.include: routes
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2500
