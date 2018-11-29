@@ -1,4 +1,4 @@
-management.endpoints.web.exposure.include: routes
+management.endpoints.web.exposure.include: routes,refresh
 
 hystrix:
   command:
