@@ -1,7 +1,7 @@
 zuul:
   ignored-services: 'product-service'
   routes:
-   product-service: /catalog/**
+    product-service: /catalog/**
 
 
 hystrix:
