@@ -2,6 +2,10 @@ zuul:
   ignored-services: 'product-service'
   routes:
     product-service: /catalog/**
+    springcloud: 
+      path: /springcloud/**      
+      url: https://spring.io/projects/spring-cloud
+
 
 
 hystrix:
