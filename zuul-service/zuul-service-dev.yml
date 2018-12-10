@@ -1,5 +1,3 @@
-management.endpoints.web.exposure.include: routes
-
 zuul:
   ignored-services: 'product-service'
   routes:
